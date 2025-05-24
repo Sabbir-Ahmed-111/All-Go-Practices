@@ -13,7 +13,7 @@ func Call(s,n int){
 	
 	z:= s + n  
 
-	fmt.Printf("sum :%d",z)
+	fmt.Printf("sum :%d\n",z)
 	
 	  	
 }
@@ -27,7 +27,7 @@ func Print()func (x,y int){
 
 func add(x,y int){
 	z:=x+y
-	fmt.Printf("res :%d\n", z)
+	fmt.Printf("res :%d\n\n", z)
 
 }
 

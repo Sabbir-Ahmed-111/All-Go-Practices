@@ -1,8 +1,19 @@
 package main
 
- import "fmt"
+import "fmt"
+
+
+
+func open(p []int)[] int{
+	  p[0]=10
+	  p =append(p, 50)
+
+	  return p   
+      }
+  
 
  func main(){
+
 
 	arr:= [5]int8{1,2,3,4,5}
     // array theke slice
@@ -48,6 +59,21 @@ package main
 
 	fmt.Println(x)
     fmt.Println(y)
+
+    
+      ///
+	  
+	b :=[]int{1,2,3,4,5}
+
+	b = append(b, 6)
+	b = append(b, 7)
+
+	c := b[4:]
+
+  val:= open(c)
+
+  fmt.Println(b)
+  fmt.Println(val)
 
 
 
